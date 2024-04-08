@@ -1,0 +1,18 @@
+{
+  "name": "nfactorial-color-palette-explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "node-sass -w styles/style.scss styles/style.css"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colorjoe": "^4.2.0",
+    "node-sass": "^9.0.0"
+  }
+}

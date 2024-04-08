@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Palette Explorer</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="assets/favicon-16x16.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <a href="https://www.nfactorial.school/" target="_blank" class="logo"
+            ><img src="assets/img/nfac-logo.png" alt=""
+          /></a>
+          <h1>Color Palette Explorer</h1>
+        </div>
+        <div class="popup">Color successfully copied!</div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="main">
+          <div class="welcome-text">
+            <h1>Hey!</h1>
+            <h3>
+              This is my implementation of the Color Palette project. Enjoy and
+              play with colors and get <span>COLORFUL</span> impressions!
+            </h3>
+            <div class="generate-random-color-btn">
+              <button type="button">Generate Random Color</button>
+            </div>
+          </div>
+          <div class="color-palette-container">
+            <div class="color-palette">
+              <div class="block-wrapper">
+                <div class="color-palette-block">
+                  <img src="assets/img/copy-svgrepo-com.svg" alt="" />
+                  <div class="block-hex"></div>
+                </div>
+                <div class="save-color-btn">
+                  <button type="button">Save color</button>
+                </div>
+              </div>
+              <div class="color-palette-picker">
+                <div class="select-block-color">
+                  <h2 class="selected-color">Selected Color: <span></span></h2>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    name=""
+                    id=""
+                    value="0"
+                    class="color-picker"
+                  />
+                </div>
+                <div class="select-block-shade">
+                  <h2 class="selected-color">Choose a shade of color</h2>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    name=""
+                    id=""
+                    value="0"
+                    class="color-picker"
+                  />
+                </div>
+                <div class="select-block-saturation">
+                  <h2 class="selected-color">Choose a saturation of color</h2>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    name=""
+                    id=""
+                    value="0"
+                    class="color-picker"
+                  />
+                </div>
+                <div class="select-block-brightness">
+                  <h2 class="selected-color">Choose a brightness of color</h2>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    name=""
+                    id=""
+                    value="0"
+                    class="color-picker"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="saved-colors">
+              <div style="text-align: center">Saved colors</div>
+              <div class="saved-colors-set"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer-container">
+        <div class="footer">
+          <div class="github">
+            <a href="https://github.com/Madikensky" target="_blank">
+              <img src="assets/img/github-icon.svg" alt="" />
+            </a>
+          </div>
+          <div class="linkedin">
+            <a
+              href="https://www.linkedin.com/in/madiyar-kenzhebayev/"
+              target="_blank"
+            >
+              <img src="assets/img/linkedin-icon.svg" alt="" />
+            </a>
+          </div>
+          <div class="telegram">
+            <a href="https://t.me/madikensky" target="_blank">
+              <img src="assets/img/telegram-icon.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div>
+          You can find my contacts above. Thanks for attention. I hope you
+          enjoyed it.
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
