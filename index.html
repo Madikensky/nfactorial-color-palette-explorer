@@ -35,7 +35,7 @@
               play with colors and get <span>COLORFUL</span> impressions!
             </h3>
             <div class="generate-random-color-btn">
-              <button type="button">Generate Random Color</button>
+              <button type="button"><span>Generate Random Color</span></button>
             </div>
           </div>
           <div class="color-palette-container">
@@ -52,22 +52,13 @@
               <div class="color-palette-picker">
                 <div class="select-block-color">
                   <h2 class="selected-color">Selected Color: <span></span></h2>
-                  <input
-                    type="range"
-                    min="0"
-                    max="100"
-                    name=""
-                    id=""
-                    value="0"
-                    class="color-picker"
-                  />
                 </div>
                 <div class="select-block-shade">
-                  <h2 class="selected-color">Choose a shade of color</h2>
+                  <h2 class="selected-color">Choose your own shade of color</h2>
                   <input
                     type="range"
                     min="0"
-                    max="100"
+                    max="255"
                     name=""
                     id=""
                     value="0"
@@ -79,14 +70,14 @@
                   <input
                     type="range"
                     min="0"
-                    max="100"
+                    max="200"
                     name=""
                     id=""
                     value="0"
-                    class="color-picker"
+                    class="color-picker-saturation"
                   />
                 </div>
-                <div class="select-block-brightness">
+                <div class="select-block-lightness">
                   <h2 class="selected-color">Choose a brightness of color</h2>
                   <input
                     type="range"
@@ -95,7 +86,7 @@
                     name=""
                     id=""
                     value="0"
-                    class="color-picker"
+                    class="color-picker-lightness"
                   />
                 </div>
               </div>
